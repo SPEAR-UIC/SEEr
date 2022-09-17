@@ -1,0 +1,3 @@
+/home/hnegron/Miniapps/miniappA/app_build/CMakeFiles/rebuild_cache.dir
+/home/hnegron/Miniapps/miniappA/app_build/CMakeFiles/app.dir
+/home/hnegron/Miniapps/miniappA/app_build/CMakeFiles/edit_cache.dir
