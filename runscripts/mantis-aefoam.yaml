@@ -1,0 +1,22 @@
+benchmarks:
+  AEFoam:
+    gpu_counts:
+      - 0
+
+collection_modes:
+  nvidia:
+    modes:
+      - power_time
+#      - gpu_trace
+#      - memory_basic_time
+    gen:
+      - sm_80
+
+formatter_modes:
+- CSV
+- PandasPickle
+
+iterations: 1
+time_count: 1000
+log: true
+test_name: aefoam_fullnode_power_0gpu
