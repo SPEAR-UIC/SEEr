@@ -1,0 +1,3 @@
+[submodule "PythonFOAM"]
+	path = PythonFOAM
+	url = https://github.com/hgreenbl/PythonFOAM
