@@ -1,0 +1,3 @@
+/lus/grand/projects/SEEr-planning/Miniapps/miniappA/app_build/CMakeFiles/rebuild_cache.dir
+/lus/grand/projects/SEEr-planning/Miniapps/miniappA/app_build/CMakeFiles/app.dir
+/lus/grand/projects/SEEr-planning/Miniapps/miniappA/app_build/CMakeFiles/edit_cache.dir

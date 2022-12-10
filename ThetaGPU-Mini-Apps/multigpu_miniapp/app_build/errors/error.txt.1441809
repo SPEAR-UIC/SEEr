@@ -1,0 +1,171 @@
+15:34:06.567417 set_robust_list(0x7f46d31cd9e0, 24) = 0
+15:34:06.567962 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.597556 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.597574 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.597590 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.597609 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f46ca9cd000
+15:34:06.597626 munmap(0x7f46ca9cd000, 23277568) = 0
+15:34:06.597644 munmap(0x7f46d0000000, 43831296) = 0
+15:34:06.597659 mprotect(0x7f46cc000000, 135168, PROT_READ|PROT_WRITE) = 0
+15:34:06.597679 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:06.597698 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.597717 writev(14, [{iov_base="\0\0\0\1\0\0\0e\0\0\0\5\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0", iov_len=5}], 2) = 21
+15:34:06.597749 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:06.597765 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.605219 read(14, "\0\0\0\0\0\0\0e\0\0\0\23\0\0\0\0", 16) = 16
+15:34:06.605245 read(14, "\0\0\0\1\0\0\0\v1030553601\0", 19) = 19
+15:34:06.605273 futex(0x7ffcce589d30, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.605293 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.605515 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.605537 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.605565 futex(0x7ffcce589620, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15:34:06.605597 futex(0x7ffcce5895c8, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.605620 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.605638 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.605676 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.605694 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.605724 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.605740 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:06.605812 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.605839 writev(14, [{iov_base="\0\0\0\1\0\0\0f\0\0\0!\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\r\0\0\0\1\0\17\0\0\0\0\0\0\0\0\0\0\0\1\0\17\0\0\0\0\0\0\0"..., iov_len=33}], 2) = 49
+15:34:06.605870 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:06.605895 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.606007 read(14, "\0\0\0\0\0\0\0f\0\0\0\10\0\0\0\0", 16) = 16
+15:34:06.606041 read(14, "\0\0\0\1\0\0\0\0", 8) = 8
+15:34:06.606071 futex(0x55f13401b590, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.606141 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.606238 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.606270 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.606299 futex(0x7ffcce58a090, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.606318 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.606344 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.606397 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.606417 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:06.606433 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.606454 writev(14, [{iov_base="\0\0\0\1\0\0\0g\0\0\0p\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\4\0\0\0\1\0\0\0\v1030553601\0\0\0\0\1\377\377\377\377"..., iov_len=112}], 2) = 128
+15:34:06.606491 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:06.606515 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.606631 read(14, "\0\0\0\0\0\0\0g\0\0\0\311\0\0\0\0", 16) = 16
+15:34:06.606648 read(14, "\0\0\0\1\0\0\0\0\0\0\0\1\0\17\0\0\0\0\0\0\0\263\0\0\0\1\0\0\0\v10"..., 201) = 201
+15:34:06.606911 futex(0x7ffcce58a090, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.606961 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.607013 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.607037 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.607082 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.607113 futex(0x7ffcce58a090, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.607134 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.607180 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.607203 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.607227 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.607252 futex(0x7ffcce58a090, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.607269 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.607323 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.607345 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.607369 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.607400 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.607433 futex(0x55f133f83298, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15:34:06.607454 futex(0x55f133f83240, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.607476 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.607500 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.607545 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.607569 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.607583 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.607599 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.611320 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.611344 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.611366 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:06.611390 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.611431 futex(0x55f133f83298, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.611447 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.611481 writev(14, [{iov_base="\0\0\0\1\0\0\0h\0\0\0\245\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\22\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., iov_len=165}], 2) = 181
+15:34:06.611541 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:06.611571 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.611633 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.611653 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.611674 futex(0x7ffcce58a318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15:34:06.611695 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.611718 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.611734 read(14, "\0\0\0\0\0\0\0h\0\0\0\10\0\0\0\0", 16) = 16
+15:34:06.611753 read(14, "\0\0\0\1\0\0\0\0", 8) = 8
+15:34:06.611771 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+15:34:06.611812 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.611838 futex(0x55f13401de40, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.611885 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.611930 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.611953 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.612120 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.612136 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.612170 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.612188 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:06.612205 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.612222 writev(14, [{iov_base="\0\0\0\1\0\0\0i\0\0\0)\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\r\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\377\377\377m\0\0\0\1\0"..., iov_len=41}], 2) = 57
+15:34:06.612252 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:06.612293 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.612429 read(14, "\0\0\0\0\0\0\0i\0\0\0\10\0\0\0\0", 16) = 16
+15:34:06.612454 read(14, "\0\0\0\1\0\0\0\0", 8) = 8
+15:34:06.612488 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.712042 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:06.712066 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.712104 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.712124 writev(14, [{iov_base="\0\0\0\1\0\0\0j\0\0\0\210\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\22\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., iov_len=136}], 2) = 152
+15:34:06.712196 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:06.712220 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:06.712375 read(14, "\0\0\0\0\0\0\0j\0\0\0\10\0\0\0\0", 16) = 16
+15:34:06.712407 read(14, "\0\0\0\1\0\0\0\0", 8) = 8
+15:34:06.712433 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.712462 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.712477 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.712498 futex(0x55f13401de40, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15:34:06.712512 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.712530 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.712988 futex(0x55f13401de40, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15:34:06.713015 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.713044 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.901381 futex(0x55f134141ee0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15:34:07.901396 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.901413 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.901743 futex(0x55f134141ee0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:07.901759 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.901776 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.902014 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.902030 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:07.902077 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.902097 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:07.902118 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:07.902137 writev(14, [{iov_base="\0\0\0\1\0\0\0k\0\0\27\314\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\2\0\0\0\1\1\0\0\0\1\1\0\17\0\0\0\0\0\0\24n\0\0\0\1\0\0\0"..., iov_len=6092}], 2) = 6108
+15:34:07.902264 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:07.902285 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:07.902509 read(14, "\0\0\0\0\0\0\0k\0\0\0\10\0\0\0\0", 16) = 16
+15:34:07.902543 read(14, "\0\0\0\1\0\0\0\0", 8) = 8
+15:34:07.902564 futex(0x55f134141ee0, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:07.902579 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.902650 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:07.902698 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.902721 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:07.902739 writev(14, [{iov_base="\0\0\0\1\0\0\0l\0\0\0T\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\3\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., iov_len=84}], 2) = 100
+15:34:07.902766 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:07.902784 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:07.903571 read(14, "\0\0\0\0\0\0\0l\0\0\0\10\0\0\0\0", 16) = 16
+15:34:07.903589 read(14, "\0\0\0\1\0\0\0\0", 8) = 8
+15:34:07.903608 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.904079 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.904096 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:07.904143 futex(0x7ffcce58a140, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:07.904162 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.904179 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.904212 futex(0x55f133ffcd30, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.904229 futex(0x55f133ffcd30, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:07.904247 futex(0x7ffcce58a140, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:07.904264 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.904282 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.929322 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN|EPOLLOUT, {u32=14, u64=14}}) = 0
+15:34:07.929346 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.929363 epoll_wait(10, [{EPOLLOUT, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:07.929415 writev(14, [{iov_base="\0\0\0\1\0\0\0m\0\0\08\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\3\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., iov_len=56}], 2) = 72
+15:34:07.929483 epoll_ctl(10, EPOLL_CTL_MOD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+15:34:07.929507 epoll_wait(10, [{EPOLLIN, {u32=14, u64=14}}], 32, 2100000) = 1
+15:34:07.930017 read(14, "\0\0\0\0\0\0\0m\0\0\0\10\0\0\0\0", 16) = 16
+15:34:07.930049 read(14, "\0\0\0\1\0\0\0\0", 8) = 8
+15:34:07.930079 epoll_wait(10, 0x55f13400b640, 32, 2100000) = -1 EINTR (Interrupted system call)
+15:35:54.219584 epoll_wait(10,  <unfinished ...>) = ?
+15:35:55.221497 +++ killed by SIGTERM +++

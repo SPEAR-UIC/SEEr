@@ -1,0 +1,1 @@
+/lus/theta-fs0/software/thetagpu/openmpi/openmpi-4.1.4_ucx-1.12.1_gcc-9.4.0/bin/mpicxx -g CMakeFiles/app.dir/app.cpp.o -o app  /usr/lib/x86_64-linux-gnu/libpython3.8.so 

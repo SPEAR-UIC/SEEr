@@ -1,0 +1,10 @@
+15:34:06.555515 set_robust_list(0x7f46d9f549e0, 24) = 0
+15:34:06.556104 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f46d1754000
+15:34:06.556126 munmap(0x7f46d1754000, 42647552) = 0
+15:34:06.556144 munmap(0x7f46d8000000, 24461312) = 0
+15:34:06.556160 mprotect(0x7f46d4000000, 135168, PROT_READ|PROT_WRITE) = 0
+15:34:06.556183 poll([{fd=9, events=POLLIN}], 1, 3599999) = 1 ([{fd=9, revents=POLLIN}])
+15:34:06.612578 read(9, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.612604 poll([{fd=9, events=POLLIN}], 1, 3599943) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+15:35:54.219588 restart_syscall(<... resuming interrupted poll ...>) = ?
+15:35:55.221584 +++ killed by SIGTERM +++

@@ -1,0 +1,70 @@
+15:34:06.447880 set_robust_list(0x7fdf24bf09e0, 24) = 0
+15:34:06.448487 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 1 (in [14], left {tv_sec=1, tv_usec=859501})
+15:34:06.589041 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fdf1579e000
+15:34:06.589084 munmap(0x7fdf1579e000, 42344448) = 0
+15:34:06.589129 munmap(0x7fdf1c000000, 24764416) = 0
+15:34:06.589170 mprotect(0x7fdf18000000, 135168, PROT_READ|PROT_WRITE) = 0
+15:34:06.589211 accept(14, {sa_family=AF_INET, sin_port=htons(54158), sin_addr=inet_addr("127.0.0.1")}, [128->16]) = 23
+15:34:06.589246 write(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.589280 accept(14, {sa_family=AF_INET, sin_port=htons(54156), sin_addr=inet_addr("127.0.0.1")}, [16]) = 24
+15:34:06.589309 accept(14, 0x7fdf18001290, [16]) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.589341 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:08.591388 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:10.593455 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:12.595503 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:14.597558 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:16.599627 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:18.601678 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:20.603732 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:22.612634 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:24.614714 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:26.616776 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:28.618842 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:30.621102 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:32.623157 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:34.625274 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:36.627379 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:38.629441 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:40.631491 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:42.633541 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:44.635615 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:46.637672 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:48.639725 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:50.641779 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:52.643847 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:54.645908 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:56.647965 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:34:58.650044 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:00.652137 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:02.654201 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:04.656259 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:06.658308 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:08.660366 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:10.662426 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:12.664484 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:14.666543 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:16.668604 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:18.670661 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:20.672765 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:22.674827 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:24.676939 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:26.679015 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:28.681059 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:30.683124 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:32.685184 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:34.687250 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:36.689317 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:38.691374 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:40.693435 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:42.695542 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:44.697612 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:46.699684 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:48.701745 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:50.703808 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:52.705888 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 0 (Timeout)
+15:35:54.707944 select(16, [14 15], NULL, NULL, {tv_sec=2, tv_usec=0}) = 1 (in [15], left {tv_sec=1, tv_usec=429040})
+15:35:55.278958 close(15)               = 0
+15:35:55.278981 close(16)               = 0
+15:35:55.278999 madvise(0x7fdf243f0000, 8368128, MADV_DONTNEED) = 0
+15:35:55.279018 exit(0)                 = ?
+15:35:55.279040 +++ exited with 0 +++

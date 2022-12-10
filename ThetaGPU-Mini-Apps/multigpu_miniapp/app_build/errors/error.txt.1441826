@@ -1,0 +1,676 @@
+15:34:07.756500 set_robust_list(0x7f46aecf19e0, 24) = 0
+15:34:07.757156 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.757894 read(47, "\0\0\0\0", 4) = 4
+15:34:07.757936 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.757959 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.760765 read(47, "\0\0\0\0", 4) = 4
+15:34:07.760789 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.760806 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.769322 read(47, "\0\0\0\0", 4) = 4
+15:34:07.769343 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.769361 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.772027 read(47, "\0\0\0\0", 4) = 4
+15:34:07.772043 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.772062 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.781071 read(47, "\0\0\0\0", 4) = 4
+15:34:07.781089 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.781108 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.783824 read(47, "\0\0\0\0", 4) = 4
+15:34:07.783839 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.783861 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.792327 read(47, "\0\0\0\0", 4) = 4
+15:34:07.792344 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.792363 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.795034 read(47, "\0\0\0\0", 4) = 4
+15:34:07.795050 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.795071 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.850304 read(47, "\0\0\0\0", 4) = 4
+15:34:07.850329 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.850354 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.853218 read(47, "\0\0\0\0", 4) = 4
+15:34:07.853233 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.853255 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.862593 read(47, "\0\0\0\0", 4) = 4
+15:34:07.862619 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.862633 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.865352 read(47, "\0\0\0\0", 4) = 4
+15:34:07.865368 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.865389 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.873801 read(47, "\0\0\0\0", 4) = 4
+15:34:07.873827 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.873841 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.876501 read(47, "\0\0\0\0", 4) = 4
+15:34:07.876517 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.876535 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.885641 read(47, "\0\0\0\0", 4) = 4
+15:34:07.885659 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.885677 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.888296 read(47, "\0\0\0\0", 4) = 4
+15:34:07.888313 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.888329 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.888547 read(47, "\0\0\0\0", 4) = 4
+15:34:07.888572 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.888591 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.888759 read(47, "\0\0\0\0", 4) = 4
+15:34:07.888777 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.888824 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.889209 read(47, "\0\0\0\0", 4) = 4
+15:34:07.889226 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.889244 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.889626 read(47, "\0\0\0\0", 4) = 4
+15:34:07.889646 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.889663 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.889690 read(47, "\0\0\0\0", 4) = 4
+15:34:07.889707 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.889724 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.890339 read(47, "\0\0\0\0", 4) = 4
+15:34:07.890355 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.890370 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.891174 read(47, "\0\0\0\0", 4) = 4
+15:34:07.891190 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.891206 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.891731 read(47, "\0\0\0\0", 4) = 4
+15:34:07.891748 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.891765 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.892555 read(47, "\0\0\0\0", 4) = 4
+15:34:07.892571 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.892588 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.893144 read(47, "\0\0\0\0", 4) = 4
+15:34:07.893162 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.893177 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.893992 read(47, "\0\0\0\0", 4) = 4
+15:34:07.894009 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.894026 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.894547 read(47, "\0\0\0\0", 4) = 4
+15:34:07.894564 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.894580 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.895398 read(47, "\0\0\0\0", 4) = 4
+15:34:07.895415 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.895432 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.895947 read(47, "\0\0\0\0", 4) = 4
+15:34:07.895964 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.895980 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.896810 read(47, "\0\0\0\0", 4) = 4
+15:34:07.896826 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.896843 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.897371 read(47, "\0\0\0\0", 4) = 4
+15:34:07.897387 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.897403 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.898226 read(47, "\0\0\0\0", 4) = 4
+15:34:07.898242 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.898259 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.898772 read(47, "\0\0\0\0", 4) = 4
+15:34:07.898787 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.898804 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.899628 read(47, "\0\0\0\0", 4) = 4
+15:34:07.899644 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.899661 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, -1) = 1
+15:34:07.900168 read(47, "\0\0\0\0", 4) = 4
+15:34:07.900185 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.900204 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914390 sched_yield()           = 0
+15:34:07.914414 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914437 sched_yield()           = 0
+15:34:07.914461 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914484 sched_yield()           = 0
+15:34:07.914508 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914531 sched_yield()           = 0
+15:34:07.914554 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914577 sched_yield()           = 0
+15:34:07.914682 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914727 sched_yield()           = 0
+15:34:07.914751 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914797 sched_yield()           = 0
+15:34:07.914822 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914846 sched_yield()           = 0
+15:34:07.914870 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914893 sched_yield()           = 0
+15:34:07.914916 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914940 sched_yield()           = 0
+15:34:07.914963 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.914986 sched_yield()           = 0
+15:34:07.915009 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.915033 sched_yield()           = 0
+15:34:07.915059 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}, {EPOLLIN, {u32=47, u64=47}}], 16, 5) = 2
+15:34:07.915088 read(47, "\0\0\0\0", 4) = 4
+15:34:07.915113 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.915139 sched_yield()           = 0
+15:34:07.915161 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915185 sched_yield()           = 0
+15:34:07.915208 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915231 sched_yield()           = 0
+15:34:07.915254 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915277 sched_yield()           = 0
+15:34:07.915300 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915324 sched_yield()           = 0
+15:34:07.915347 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915393 sched_yield()           = 0
+15:34:07.915417 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915441 sched_yield()           = 0
+15:34:07.915465 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915488 sched_yield()           = 0
+15:34:07.915511 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915534 sched_yield()           = 0
+15:34:07.915558 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915581 sched_yield()           = 0
+15:34:07.915604 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 5) = 1
+15:34:07.915627 sched_yield()           = 0
+15:34:07.915650 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.915673 sched_yield()           = 0
+15:34:07.915697 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.915720 sched_yield()           = 0
+15:34:07.915744 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.915767 sched_yield()           = 0
+15:34:07.915789 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.915813 sched_yield()           = 0
+15:34:07.915837 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.915859 sched_yield()           = 0
+15:34:07.915882 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.915905 sched_yield()           = 0
+15:34:07.915927 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.915950 sched_yield()           = 0
+15:34:07.915976 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.915998 sched_yield()           = 0
+15:34:07.916021 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916046 sched_yield()           = 0
+15:34:07.916069 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916093 sched_yield()           = 0
+15:34:07.916117 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916140 sched_yield()           = 0
+15:34:07.916162 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916185 sched_yield()           = 0
+15:34:07.916218 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916235 sched_yield()           = 0
+15:34:07.916251 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916267 sched_yield()           = 0
+15:34:07.916284 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916300 sched_yield()           = 0
+15:34:07.916343 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916365 sched_yield()           = 0
+15:34:07.916423 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916460 sched_yield()           = 0
+15:34:07.916681 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916699 sched_yield()           = 0
+15:34:07.916715 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916733 sched_yield()           = 0
+15:34:07.916750 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916769 sched_yield()           = 0
+15:34:07.916789 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916807 sched_yield()           = 0
+15:34:07.916821 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916838 sched_yield()           = 0
+15:34:07.916852 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916869 sched_yield()           = 0
+15:34:07.916897 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916915 sched_yield()           = 0
+15:34:07.916930 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916947 sched_yield()           = 0
+15:34:07.916968 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.916986 sched_yield()           = 0
+15:34:07.917000 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.917018 sched_yield()           = 0
+15:34:07.917033 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.917050 sched_yield()           = 0
+15:34:07.917070 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.917089 sched_yield()           = 0
+15:34:07.917105 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.917124 sched_yield()           = 0
+15:34:07.917144 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.917169 sched_yield()           = 0
+15:34:07.917186 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.917203 sched_yield()           = 0
+15:34:07.917219 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.917239 sched_yield()           = 0
+15:34:07.917260 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 4) = 1
+15:34:07.917278 sched_yield()           = 0
+15:34:07.917293 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917311 sched_yield()           = 0
+15:34:07.917328 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917345 sched_yield()           = 0
+15:34:07.917360 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917377 sched_yield()           = 0
+15:34:07.917392 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917410 sched_yield()           = 0
+15:34:07.917426 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917445 sched_yield()           = 0
+15:34:07.917461 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917479 sched_yield()           = 0
+15:34:07.917498 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917515 sched_yield()           = 0
+15:34:07.917529 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917546 sched_yield()           = 0
+15:34:07.917562 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917580 sched_yield()           = 0
+15:34:07.917595 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917612 sched_yield()           = 0
+15:34:07.917631 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917649 sched_yield()           = 0
+15:34:07.917664 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917682 sched_yield()           = 0
+15:34:07.917698 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917716 sched_yield()           = 0
+15:34:07.917732 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917749 sched_yield()           = 0
+15:34:07.917768 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917786 sched_yield()           = 0
+15:34:07.917801 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917818 sched_yield()           = 0
+15:34:07.917902 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917925 sched_yield()           = 0
+15:34:07.917970 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.917989 sched_yield()           = 0
+15:34:07.918008 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918028 sched_yield()           = 0
+15:34:07.918044 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918062 sched_yield()           = 0
+15:34:07.918077 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918095 sched_yield()           = 0
+15:34:07.918110 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918128 sched_yield()           = 0
+15:34:07.918144 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918161 sched_yield()           = 0
+15:34:07.918175 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918193 sched_yield()           = 0
+15:34:07.918213 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918231 sched_yield()           = 0
+15:34:07.918250 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918267 sched_yield()           = 0
+15:34:07.918283 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918300 sched_yield()           = 0
+15:34:07.918320 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918339 sched_yield()           = 0
+15:34:07.918353 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918370 sched_yield()           = 0
+15:34:07.918384 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918401 sched_yield()           = 0
+15:34:07.918417 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918434 sched_yield()           = 0
+15:34:07.918448 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918465 sched_yield()           = 0
+15:34:07.918480 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918497 sched_yield()           = 0
+15:34:07.918517 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918535 sched_yield()           = 0
+15:34:07.918549 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918567 sched_yield()           = 0
+15:34:07.918582 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918599 sched_yield()           = 0
+15:34:07.918619 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918637 sched_yield()           = 0
+15:34:07.918652 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918669 sched_yield()           = 0
+15:34:07.918686 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918704 sched_yield()           = 0
+15:34:07.918719 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918736 sched_yield()           = 0
+15:34:07.918751 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918768 sched_yield()           = 0
+15:34:07.918782 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918799 sched_yield()           = 0
+15:34:07.918814 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918831 sched_yield()           = 0
+15:34:07.918850 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918867 sched_yield()           = 0
+15:34:07.918882 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918900 sched_yield()           = 0
+15:34:07.918920 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 3) = 1
+15:34:07.918938 sched_yield()           = 0
+15:34:07.918953 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.918970 sched_yield()           = 0
+15:34:07.918985 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919002 sched_yield()           = 0
+15:34:07.919018 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919035 sched_yield()           = 0
+15:34:07.919049 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919066 sched_yield()           = 0
+15:34:07.919080 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919097 sched_yield()           = 0
+15:34:07.919209 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919242 sched_yield()           = 0
+15:34:07.919282 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919301 sched_yield()           = 0
+15:34:07.919316 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919333 sched_yield()           = 0
+15:34:07.919349 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919365 sched_yield()           = 0
+15:34:07.919380 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919397 sched_yield()           = 0
+15:34:07.919415 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919432 sched_yield()           = 0
+15:34:07.919447 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919464 sched_yield()           = 0
+15:34:07.919483 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919501 sched_yield()           = 0
+15:34:07.919520 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919538 sched_yield()           = 0
+15:34:07.919553 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919569 sched_yield()           = 0
+15:34:07.919584 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919601 sched_yield()           = 0
+15:34:07.919616 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919633 sched_yield()           = 0
+15:34:07.919648 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919665 sched_yield()           = 0
+15:34:07.919679 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919695 sched_yield()           = 0
+15:34:07.919710 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919727 sched_yield()           = 0
+15:34:07.919741 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919758 sched_yield()           = 0
+15:34:07.919774 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919791 sched_yield()           = 0
+15:34:07.919806 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919824 sched_yield()           = 0
+15:34:07.919839 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919856 sched_yield()           = 0
+15:34:07.919870 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919887 sched_yield()           = 0
+15:34:07.919902 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919919 sched_yield()           = 0
+15:34:07.919934 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919952 sched_yield()           = 0
+15:34:07.919966 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.919983 sched_yield()           = 0
+15:34:07.919998 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920015 sched_yield()           = 0
+15:34:07.920030 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920047 sched_yield()           = 0
+15:34:07.920067 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920085 sched_yield()           = 0
+15:34:07.920103 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920122 sched_yield()           = 0
+15:34:07.920137 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920154 sched_yield()           = 0
+15:34:07.920169 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920185 sched_yield()           = 0
+15:34:07.920200 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920218 sched_yield()           = 0
+15:34:07.920234 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920253 sched_yield()           = 0
+15:34:07.920270 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920287 sched_yield()           = 0
+15:34:07.920301 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920318 sched_yield()           = 0
+15:34:07.920333 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920350 sched_yield()           = 0
+15:34:07.920369 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920387 sched_yield()           = 0
+15:34:07.920461 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920480 sched_yield()           = 0
+15:34:07.920516 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920534 sched_yield()           = 0
+15:34:07.920549 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920566 sched_yield()           = 0
+15:34:07.920580 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 2) = 1
+15:34:07.920597 sched_yield()           = 0
+15:34:07.920611 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920628 sched_yield()           = 0
+15:34:07.920650 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920667 sched_yield()           = 0
+15:34:07.920683 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920700 sched_yield()           = 0
+15:34:07.920719 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920737 sched_yield()           = 0
+15:34:07.920751 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920768 sched_yield()           = 0
+15:34:07.920782 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920799 sched_yield()           = 0
+15:34:07.920814 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920832 sched_yield()           = 0
+15:34:07.920847 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920864 sched_yield()           = 0
+15:34:07.920878 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920965 sched_yield()           = 0
+15:34:07.920981 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.920999 sched_yield()           = 0
+15:34:07.921015 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921030 sched_yield()           = 0
+15:34:07.921046 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921062 sched_yield()           = 0
+15:34:07.921083 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921099 sched_yield()           = 0
+15:34:07.921119 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921138 sched_yield()           = 0
+15:34:07.921155 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921172 sched_yield()           = 0
+15:34:07.921188 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921205 sched_yield()           = 0
+15:34:07.921221 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921236 sched_yield()           = 0
+15:34:07.921252 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921267 sched_yield()           = 0
+15:34:07.921283 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921299 sched_yield()           = 0
+15:34:07.921315 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921331 sched_yield()           = 0
+15:34:07.921347 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921362 sched_yield()           = 0
+15:34:07.921379 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921395 sched_yield()           = 0
+15:34:07.921412 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921428 sched_yield()           = 0
+15:34:07.921450 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921467 sched_yield()           = 0
+15:34:07.921489 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921506 sched_yield()           = 0
+15:34:07.921523 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921538 sched_yield()           = 0
+15:34:07.921554 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921569 sched_yield()           = 0
+15:34:07.921585 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921601 sched_yield()           = 0
+15:34:07.921617 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921632 sched_yield()           = 0
+15:34:07.921652 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921750 sched_yield()           = 0
+15:34:07.921773 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921790 sched_yield()           = 0
+15:34:07.921810 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921837 sched_yield()           = 0
+15:34:07.921878 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921897 sched_yield()           = 0
+15:34:07.921912 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921928 sched_yield()           = 0
+15:34:07.921943 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921961 sched_yield()           = 0
+15:34:07.921975 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.921993 sched_yield()           = 0
+15:34:07.922008 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.922025 sched_yield()           = 0
+15:34:07.922045 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.922064 sched_yield()           = 0
+15:34:07.922079 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.922096 sched_yield()           = 0
+15:34:07.922115 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.922134 sched_yield()           = 0
+15:34:07.922150 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.922167 sched_yield()           = 0
+15:34:07.922181 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.922199 sched_yield()           = 0
+15:34:07.922214 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.922234 sched_yield()           = 0
+15:34:07.922249 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 1) = 1
+15:34:07.922266 sched_yield()           = 0
+15:34:07.922280 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922297 sched_yield()           = 0
+15:34:07.922312 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922341 sched_yield()           = 0
+15:34:07.922356 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922373 sched_yield()           = 0
+15:34:07.922388 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922406 sched_yield()           = 0
+15:34:07.922421 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922438 sched_yield()           = 0
+15:34:07.922452 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922469 sched_yield()           = 0
+15:34:07.922483 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922500 sched_yield()           = 0
+15:34:07.922515 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922540 sched_yield()           = 0
+15:34:07.922555 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922571 sched_yield()           = 0
+15:34:07.922586 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922602 sched_yield()           = 0
+15:34:07.922621 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922652 sched_yield()           = 0
+15:34:07.922674 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922691 sched_yield()           = 0
+15:34:07.922706 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 0) = 1
+15:34:07.922751 shmget(IPC_PRIVATE, 20971520, IPC_CREAT|SHM_HUGETLB|0600) = -1 ENOMEM (Cannot allocate memory)
+15:34:07.922824 shmctl(0, IPC_INFO, 0x7f46aecf05a0) = 42
+15:34:07.922849 openat(AT_FDCWD, "/sys/kernel/mm/transparent_hugepage/enabled", O_RDONLY) = 81
+15:34:07.922912 read(81, "always [madvise] never\n", 254) = 23
+15:34:07.922970 close(81)               = 0
+15:34:07.923004 mmap(0x7f46ac000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f469e7fd000
+15:34:07.923049 munmap(0x7f469e7fd000, 67108864) = 0
+15:34:07.923075 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f469a7fd000
+15:34:07.923091 munmap(0x7f469a7fd000, 25178112) = 0
+15:34:07.923119 munmap(0x7f46a0000000, 41930752) = 0
+15:34:07.923151 mprotect(0x7f469c000000, 23203840, PROT_READ|PROT_WRITE) = 0
+15:34:07.923191 madvise(0x7f469c200000, 20971520, MADV_HUGEPAGE) = 0
+15:34:07.923224 access("/sys/kernel/mm/memory_peers/nv_mem/version", F_OK) = 0
+15:34:07.923256 access("/dev/kfd", F_OK) = -1 ENOENT (No such file or directory)
+15:34:07.923296 madvise(0x7f469c200000, 20971520, MADV_DONTFORK) = 0
+15:34:07.923325 ioctl(31, RDMA_VERBS_IOCTL, 0x7f46aecf04d0) = 0
+15:34:07.925828 getpid()                = 1441802
+15:34:07.925854 getpid()                = 1441802
+15:34:07.925876 read(66, " \227\2554\361U\0\0", 8) = 8
+15:34:07.925896 read(66, 0x7f46aecf0c00, 8) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.925931 sched_yield()           = 0
+15:34:07.925967 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 100) = 1
+15:34:07.925998 sched_yield()           = 0
+15:34:07.926019 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926037 sched_yield()           = 0
+15:34:07.926050 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926066 sched_yield()           = 0
+15:34:07.926081 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926099 sched_yield()           = 0
+15:34:07.926115 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926135 sched_yield()           = 0
+15:34:07.926153 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926172 sched_yield()           = 0
+15:34:07.926188 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926207 sched_yield()           = 0
+15:34:07.926225 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926244 sched_yield()           = 0
+15:34:07.926261 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926277 sched_yield()           = 0
+15:34:07.926294 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926316 sched_yield()           = 0
+15:34:07.926337 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926356 sched_yield()           = 0
+15:34:07.926371 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926389 sched_yield()           = 0
+15:34:07.926406 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926425 sched_yield()           = 0
+15:34:07.926442 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926460 sched_yield()           = 0
+15:34:07.926480 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926501 sched_yield()           = 0
+15:34:07.926518 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926535 sched_yield()           = 0
+15:34:07.926557 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926572 sched_yield()           = 0
+15:34:07.926586 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926605 sched_yield()           = 0
+15:34:07.926620 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926639 sched_yield()           = 0
+15:34:07.926655 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926673 sched_yield()           = 0
+15:34:07.926691 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926710 sched_yield()           = 0
+15:34:07.926728 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926746 sched_yield()           = 0
+15:34:07.926763 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926779 sched_yield()           = 0
+15:34:07.926823 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926839 sched_yield()           = 0
+15:34:07.926856 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926871 sched_yield()           = 0
+15:34:07.926888 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926903 sched_yield()           = 0
+15:34:07.926920 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.926942 sched_yield()           = 0
+15:34:07.926982 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927000 sched_yield()           = 0
+15:34:07.927015 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927033 sched_yield()           = 0
+15:34:07.927051 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927065 sched_yield()           = 0
+15:34:07.927082 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927099 sched_yield()           = 0
+15:34:07.927115 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927134 sched_yield()           = 0
+15:34:07.927152 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927204 sched_yield()           = 0
+15:34:07.927224 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927244 sched_yield()           = 0
+15:34:07.927261 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927286 sched_yield()           = 0
+15:34:07.927300 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927319 sched_yield()           = 0
+15:34:07.927413 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927496 sched_yield()           = 0
+15:34:07.927575 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927592 sched_yield()           = 0
+15:34:07.927668 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 99) = 1
+15:34:07.927760 sched_yield()           = 0
+15:34:07.927778 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.927794 sched_yield()           = 0
+15:34:07.927809 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.927826 sched_yield()           = 0
+15:34:07.927842 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.927858 sched_yield()           = 0
+15:34:07.927876 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.927897 sched_yield()           = 0
+15:34:07.927915 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.927932 sched_yield()           = 0
+15:34:07.927948 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.927963 sched_yield()           = 0
+15:34:07.927977 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.927993 sched_yield()           = 0
+15:34:07.928007 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928023 sched_yield()           = 0
+15:34:07.928036 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928050 sched_yield()           = 0
+15:34:07.928068 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928085 sched_yield()           = 0
+15:34:07.928102 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928117 sched_yield()           = 0
+15:34:07.928130 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928146 sched_yield()           = 0
+15:34:07.928159 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928174 sched_yield()           = 0
+15:34:07.928188 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928205 sched_yield()           = 0
+15:34:07.928222 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928237 sched_yield()           = 0
+15:34:07.928250 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928265 sched_yield()           = 0
+15:34:07.928278 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928293 sched_yield()           = 0
+15:34:07.928308 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928328 sched_yield()           = 0
+15:34:07.928344 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928362 sched_yield()           = 0
+15:34:07.928379 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928398 sched_yield()           = 0
+15:34:07.928416 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928436 sched_yield()           = 0
+15:34:07.928454 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928473 sched_yield()           = 0
+15:34:07.928489 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928505 sched_yield()           = 0
+15:34:07.928520 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928536 sched_yield()           = 0
+15:34:07.928552 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, 98) = 1
+15:34:07.928577 read(66, " \227\2554\361U\0\0", 8) = 8
+15:34:07.928615 read(66, 0x7f46aecf0c00, 8) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.928632 epoll_wait(49, [{EPOLLIN, {u32=47, u64=47}}], 16, 98) = 1
+15:34:07.930912 read(47, "\0\0\0\0", 4) = 4
+15:34:07.930935 read(47, 0x7f46aecf0ce4, 4) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.930954 epoll_wait(49, [{EPOLLIN, {u32=66, u64=66}}], 16, -1) = 1
+15:34:07.931204 sched_yield()           = 0
+15:34:07.931220 epoll_wait(49, 0x7f46aecf0d40, 16, -1) = -1 EINTR (Interrupted system call)
+15:35:54.219579 epoll_wait(49,  <unfinished ...>) = ?
+15:35:55.221334 +++ killed by SIGTERM +++

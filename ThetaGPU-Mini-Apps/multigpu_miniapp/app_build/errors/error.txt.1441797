@@ -1,0 +1,278 @@
+15:34:06.367362 set_robust_list(0x7fdf25a0c9e0, 24) = 0
+15:34:06.368085 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.448551 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fdf1c3f0000
+15:34:06.448580 munmap(0x7fdf1c3f0000, 62980096) = 0
+15:34:06.448605 munmap(0x7fdf24000000, 4128768) = 0
+15:34:06.448628 mprotect(0x7fdf20000000, 135168, PROT_READ|PROT_WRITE) = 0
+15:34:06.448666 futex(0x56274960bb70, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.448695 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.448724 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.448758 futex(0x5627495d5a80, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.448783 futex(0x5627495d5a80, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.448812 futex(0x7ffe6cb18938, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.448839 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.448861 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.465474 futex(0x562749575358, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.465525 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.465551 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.465646 futex(0x562749575358, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15:34:06.465667 futex(0x562749575300, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.465686 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.465714 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.485701 futex(0x562749575358, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+15:34:06.485728 futex(0x562749575300, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.485748 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.485774 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.505381 futex(0x7ffe6cb18228, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.505404 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.505426 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.505480 futex(0x5627495d5a80, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.505511 futex(0x5627495d5a80, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.505544 futex(0x7ffe6cb18228, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.505566 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.505585 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.505703 mkdir("/tmp/ompi.thetagpu06.36196/pid.1441785/pmix_dstor_ds21_1441785", 0770) = -1 EEXIST (File exists)
+15:34:06.505746 getpid()                = 1441785
+15:34:06.505764 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/pmix_dstor_ds21_1441785/initial-pmix_shared-segment-0", O_RDWR|O_CREAT, 0600) = 22
+15:34:06.505811 fallocate(22, 0, 0, 4096) = 0
+15:34:06.505839 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 22, 0) = 0x7fdf2a6d4000
+15:34:06.505862 close(22)               = 0
+15:34:06.505893 getpid()                = 1441785
+15:34:06.505910 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/pmix_dstor_ds21_1441785/smlockseg-1030553601", O_RDWR|O_CREAT, 0600) = 22
+15:34:06.505933 fallocate(22, 0, 0, 4096) = 0
+15:34:06.505952 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 22, 0) = 0x7fdf2a0d4000
+15:34:06.505970 close(22)               = 0
+15:34:06.505996 mkdir("/tmp/ompi.thetagpu06.36196/pid.1441785/pmix_dstor_ds12_1441785", 0770) = -1 EEXIST (File exists)
+15:34:06.506019 getpid()                = 1441785
+15:34:06.506036 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/pmix_dstor_ds12_1441785/initial-pmix_shared-segment-0", O_RDWR|O_CREAT, 0600) = 22
+15:34:06.506059 fallocate(22, 0, 0, 4096) = 0
+15:34:06.506078 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 22, 0) = 0x7fdf2a0d3000
+15:34:06.506098 close(22)               = 0
+15:34:06.506122 getpid()                = 1441785
+15:34:06.506137 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/pmix_dstor_ds12_1441785/dstore_sm.lock", O_RDWR|O_CREAT, 0600) = 22
+15:34:06.506160 fallocate(22, 0, 0, 4096) = 0
+15:34:06.506177 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_SHARED, 22, 0) = 0x7fdf2a0d2000
+15:34:06.506196 close(22)               = 0
+15:34:06.507448 futex(0x7ffe6cb18228, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+15:34:06.507471 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.507494 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:06.589301 fcntl(23, F_GETFL)      = 0x2 (flags O_RDWR)
+15:34:06.589329 fcntl(23, F_SETFL, O_RDWR) = 0
+15:34:06.589358 recvfrom(23, "\377\377\377\377\377\377\377\3772\0\0\0\0\0\0\0", 16, MSG_WAITALL, NULL, NULL) = 16
+15:34:06.589963 recvfrom(23, "native\0\0\0\0\10d\215\0\0d\0\0\0\0001030553601\0\0"..., 50, MSG_WAITALL, NULL, NULL) = 50
+15:34:06.596959 sendto(23, "\0\0\0\0", 4, 0, NULL, 0) = 4
+15:34:06.597010 sendto(23, "\0\0\0\0", 4, 0, NULL, 0) = 4
+15:34:06.597065 write(5, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.597099 fcntl(23, F_GETFL)      = 0x2 (flags O_RDWR)
+15:34:06.597116 fcntl(23, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+15:34:06.597145 epoll_ctl(10, EPOLL_CTL_ADD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:06.597178 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.597201 fcntl(24, F_GETFL)      = 0x2 (flags O_RDWR)
+15:34:06.597227 fcntl(24, F_SETFL, O_RDWR) = 0
+15:34:06.597255 recvfrom(24, "\377\377\377\377\377\377\377\3772\0\0\0\0\0\0\0", 16, MSG_WAITALL, NULL, NULL) = 16
+15:34:06.597276 recvfrom(24, "native\0\0\0\0\10d\215\0\0d\0\0\0\0001030553601\0\0"..., 50, MSG_WAITALL, NULL, NULL) = 50
+15:34:06.597303 sendto(24, "\0\0\0\0", 4, 0, NULL, 0) = 4
+15:34:06.597350 sendto(24, "\0\0\0\1", 4, 0, NULL, 0) = 4
+15:34:06.597392 write(5, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.597416 fcntl(24, F_GETFL)      = 0x2 (flags O_RDWR)
+15:34:06.597446 fcntl(24, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+15:34:06.597466 epoll_ctl(10, EPOLL_CTL_ADD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:06.597490 epoll_wait(10, [{EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.597519 read(23, "\0\0\0\0\0\0\0e\0\0\0\5\0\0\0\0", 16) = 16
+15:34:06.597541 read(23, "\0\0\0\1\0", 5) = 5
+15:34:06.600457 getpid()                = 1441785
+15:34:06.600473 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/pmix_dstor_ds21_1441785/smseg-1030553601-0", O_RDWR|O_CREAT, 0600) = 27
+15:34:06.600520 fallocate(27, 0, 0, 4194304) = 0
+15:34:06.601501 mmap(NULL, 4194304, PROT_READ|PROT_WRITE, MAP_SHARED, 27, 0) = 0x7fdf1d39e000
+15:34:06.601522 close(27)               = 0
+15:34:06.602169 getpid()                = 1441785
+15:34:06.602185 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/pmix_dstor_ds21_1441785/smdataseg-1030553601-0", O_RDWR|O_CREAT, 0600) = 27
+15:34:06.602210 fallocate(27, 0, 0, 4194304) = 0
+15:34:06.603163 mmap(NULL, 4194304, PROT_READ|PROT_WRITE, MAP_SHARED, 27, 0) = 0x7fdf1cf9e000
+15:34:06.603181 close(27)               = 0
+15:34:06.604825 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:06.604848 epoll_wait(10, [{EPOLLOUT, {u32=23, u64=23}}, {EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 2
+15:34:06.604870 writev(23, [{iov_base="\0\0\0\0\0\0\0e\0\0\0\23\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\v1030553601\0", iov_len=19}], 2) = 35
+15:34:06.605068 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:06.605086 read(24, "\0\0\0\1\0\0\0e\0\0\0\5\0\0\0\0", 16) = 16
+15:34:06.605106 read(24, "\0\0\0\1\0", 5) = 5
+15:34:06.605140 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:06.605161 epoll_wait(10, [{EPOLLOUT, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.605180 writev(24, [{iov_base="\0\0\0\0\0\0\0e\0\0\0\23\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\v1030553601\0", iov_len=19}], 2) = 35
+15:34:06.605229 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:06.605259 epoll_wait(10, [{EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.605648 read(23, "\0\0\0\0\0\0\0f\0\0\0!\0\0\0\0", 16) = 16
+15:34:06.605681 read(23, "\0\0\0\1\r\0\0\0\1\0\17\0\0\0\0\0\0\0\0\0\0\0\1\0\17\0\0\0\0\0\0\0"..., 33) = 33
+15:34:06.605718 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:06.605735 epoll_wait(10, [{EPOLLOUT, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.605753 writev(23, [{iov_base="\0\0\0\0\0\0\0f\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:06.605851 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:06.605876 epoll_wait(10, [{EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.605902 read(24, "\0\0\0\1\0\0\0f\0\0\0!\0\0\0\0", 16) = 16
+15:34:06.605922 read(24, "\0\0\0\1\r\0\0\0\1\0\17\0\0\0\0\0\0\0\0\0\0\0\1\0\17\0\0\0\0\0\0\0"..., 33) = 33
+15:34:06.605942 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:06.605959 epoll_wait(10, [{EPOLLOUT, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.605977 writev(24, [{iov_base="\0\0\0\0\0\0\0f\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:06.606019 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:06.606062 epoll_wait(10, [{EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.606348 read(23, "\0\0\0\0\0\0\0g\0\0\0p\0\0\0\0", 16) = 16
+15:34:06.606373 read(23, "\0\0\0\1\4\0\0\0\1\0\0\0\v1030553601\0\0\0\0\1\377\377\377\377"..., 112) = 112
+15:34:06.606411 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:06.606429 epoll_wait(10, [{EPOLLOUT, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.606446 writev(23, [{iov_base="\0\0\0\0\0\0\0g\0\0\0\311\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0\0\0\0\1\0\17\0\0\0\0\0\0\0\263\0\0\0\1\0\0\0\v10"..., iov_len=201}], 2) = 217
+15:34:06.606481 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:06.606507 epoll_wait(10, [{EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.606529 read(24, "\0\0\0\1\0\0\0g\0\0\0p\0\0\0\0", 16) = 16
+15:34:06.606547 read(24, "\0\0\0\1\4\0\0\0\1\0\0\0\v1030553601\0\0\0\0\1\377\377\377\377"..., 112) = 112
+15:34:06.606570 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:06.606588 epoll_wait(10, [{EPOLLOUT, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.606606 writev(24, [{iov_base="\0\0\0\0\0\0\0g\0\0\0\311\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0\0\0\0\1\0\17\0\0\0\0\0\0\0\263\0\0\0\1\0\0\0\v10"..., iov_len=201}], 2) = 217
+15:34:06.606636 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:06.606653 epoll_wait(10, [{EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.611537 read(24, "\0\0\0\1\0\0\0h\0\0\0\245\0\0\0\0", 16) = 16
+15:34:06.611567 read(24, "\0\0\0\1\22\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., 165) = 165
+15:34:06.611604 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:06.611628 epoll_wait(10, [{EPOLLOUT, {u32=24, u64=24}}, {EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 2
+15:34:06.611667 writev(24, [{iov_base="\0\0\0\0\0\0\0h\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:06.611703 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:06.611738 read(23, "\0\0\0\0\0\0\0h\0\0\0\245\0\0\0\0", 16) = 16
+15:34:06.611767 read(23, "\0\0\0\1\22\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., 165) = 165
+15:34:06.611793 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:06.611834 epoll_wait(10, [{EPOLLOUT, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.611874 writev(23, [{iov_base="\0\0\0\0\0\0\0h\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:06.611920 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:06.611964 epoll_wait(10, [{EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.612275 read(24, "\0\0\0\1\0\0\0i\0\0\0)\0\0\0\0", 16) = 16
+15:34:06.612304 read(24, "\0\0\0\1\r\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\377\377\377m\0\0\0\1\0"..., 41) = 41
+15:34:06.612335 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:06.612362 epoll_wait(10, [{EPOLLOUT, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.612382 writev(24, [{iov_base="\0\0\0\0\0\0\0i\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:06.612437 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:06.612458 epoll_wait(10, [{EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.612501 read(23, "\0\0\0\0\0\0\0i\0\0\0)\0\0\0\0", 16) = 16
+15:34:06.612519 read(23, "\0\0\0\1\r\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\377\377\377m\0\0\0\1\0"..., 41) = 41
+15:34:06.612538 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:06.612564 epoll_wait(10, [{EPOLLOUT, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.612582 writev(23, [{iov_base="\0\0\0\0\0\0\0i\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:06.612625 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:06.612654 epoll_wait(10, [{EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.712202 read(24, "\0\0\0\1\0\0\0j\0\0\0\210\0\0\0\0", 16) = 16
+15:34:06.712241 read(24, "\0\0\0\1\22\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., 136) = 136
+15:34:06.712285 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:06.712316 epoll_wait(10, [{EPOLLOUT, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:06.712339 writev(24, [{iov_base="\0\0\0\0\0\0\0j\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:06.712385 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:06.712420 epoll_wait(10, [{EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.713078 read(23, "\0\0\0\0\0\0\0j\0\0\0\210\0\0\0\0", 16) = 16
+15:34:06.713140 read(23, "\0\0\0\1\22\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., 136) = 136
+15:34:06.713180 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:06.713201 epoll_wait(10, [{EPOLLOUT, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:06.713218 writev(23, [{iov_base="\0\0\0\0\0\0\0j\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:06.713258 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:06.713286 epoll_wait(10, [{EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:07.902270 read(24, "\0\0\0\1\0\0\0k\0\0\27\314\0\0\0\0", 16) = 16
+15:34:07.902301 read(24, "\0\0\0\1\2\0\0\0\1\1\0\0\0\1\1\0\17\0\0\0\0\0\0\24n\0\0\0\1\0\0\0"..., 6092) = 6092
+15:34:07.902358 mprotect(0x7fdf20021000, 4096, PROT_READ|PROT_WRITE) = 0
+15:34:07.902408 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:07.902440 epoll_wait(10, [{EPOLLOUT, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:07.902470 writev(24, [{iov_base="\0\0\0\0\0\0\0k\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:07.902521 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:07.902559 epoll_wait(10, [{EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:07.902711 read(23, "\0\0\0\0\0\0\0k\0\0\30\26\0\0\0\0", 16) = 16
+15:34:07.902748 read(23, "\0\0\0\1\2\0\0\0\1\1\0\0\0\1\1\0\17\0\0\0\0\0\0\24\223\0\0\0\1\0\0\0"..., 6166) = 6166
+15:34:07.902778 mprotect(0x7fdf20022000, 4096, PROT_READ|PROT_WRITE) = 0
+15:34:07.902809 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:07.902828 epoll_wait(10, [{EPOLLOUT, {u32=23, u64=23}}, {EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 2
+15:34:07.902848 writev(23, [{iov_base="\0\0\0\0\0\0\0k\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:07.902881 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:07.902915 read(24, "\0\0\0\1\0\0\0l\0\0\0T\0\0\0\0", 16) = 16
+15:34:07.902948 read(24, "\0\0\0\1\3\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., 84) = 84
+15:34:07.902975 epoll_wait(10, [{EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:07.903122 read(23, "\0\0\0\0\0\0\0l\0\0\0T\0\0\0\0", 16) = 16
+15:34:07.903146 read(23, "\0\0\0\1\3\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., 84) = 84
+15:34:07.903205 write(5, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.903229 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.903363 futex(0x5627495d5a80, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.903392 futex(0x5627495d5a80, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:07.903461 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:07.903480 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:07.903504 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.903522 epoll_wait(10, [{EPOLLOUT, {u32=24, u64=24}}, {EPOLLOUT, {u32=23, u64=23}}], 32, 2100000) = 2
+15:34:07.903541 writev(24, [{iov_base="\0\0\0\0\0\0\0l\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:07.903576 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:07.903600 writev(23, [{iov_base="\0\0\0\0\0\0\0l\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:07.903639 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:07.903657 epoll_wait(10, [{EPOLLIN, {u32=23, u64=23}}], 32, 2100000) = 1
+15:34:07.927478 read(23, "\0\0\0\0\0\0\0m\0\0\08\0\0\0\0", 16) = 16
+15:34:07.927579 read(23, "\0\0\0\1\3\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., 56) = 56
+15:34:07.927740 epoll_wait(10, [{EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 1
+15:34:07.929498 read(24, "\0\0\0\1\0\0\0m\0\0\08\0\0\0\0", 16) = 16
+15:34:07.929523 read(24, "\0\0\0\1\3\0\0\0\1\0\17\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\v10305"..., 56) = 56
+15:34:07.929563 write(5, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.929591 epoll_wait(10, [{EPOLLIN, {u32=13, u64=13}}], 32, 2100000) = 1
+15:34:07.929712 futex(0x5627495d5a80, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:07.929748 futex(0x5627495d5a80, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:07.929791 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN|EPOLLOUT, {u32=23, u64=23}}) = 0
+15:34:07.929808 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN|EPOLLOUT, {u32=24, u64=24}}) = 0
+15:34:07.929826 read(13, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.929848 epoll_wait(10, [{EPOLLOUT, {u32=23, u64=23}}, {EPOLLOUT, {u32=24, u64=24}}], 32, 2100000) = 2
+15:34:07.929879 writev(23, [{iov_base="\0\0\0\0\0\0\0m\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:07.929938 epoll_ctl(10, EPOLL_CTL_MOD, 23, {EPOLLIN, {u32=23, u64=23}}) = 0
+15:34:07.929971 writev(24, [{iov_base="\0\0\0\0\0\0\0m\0\0\0\10\0\0\0\0", iov_len=16}, {iov_base="\0\0\0\1\0\0\0\0", iov_len=8}], 2) = 24
+15:34:07.930012 epoll_ctl(10, EPOLL_CTL_MOD, 24, {EPOLLIN, {u32=24, u64=24}}) = 0
+15:34:07.930057 epoll_wait(10, [{EPOLLIN, {u32=24, u64=24}}], 32, 2100000) = 1
+15:35:55.257607 read(24, "", 16)        = 0
+15:35:55.257680 epoll_ctl(10, EPOLL_CTL_DEL, 24, 0x7fdf25a0bcbc) = 0
+15:35:55.257721 shutdown(24, SHUT_RDWR) = 0
+15:35:55.257775 close(24)               = 0
+15:35:55.257814 stat("/dev/shm/vader_segment.thetagpu06.3d6d0001.1", {st_mode=S_IFREG|0600, st_size=4194312, ...}) = 0
+15:35:55.257852 unlink("/dev/shm/vader_segment.thetagpu06.3d6d0001.1") = 0
+15:35:55.257882 stat("/tmp/ompi.thetagpu06.36196/pid.1441785/1", {st_mode=S_IFDIR|0700, st_size=160, ...}) = 0
+15:35:55.257909 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/1", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 24
+15:35:55.257939 fstat(24, {st_mode=S_IFDIR|0700, st_size=160, ...}) = 0
+15:35:55.257959 mprotect(0x7fdf20023000, 20480, PROT_READ|PROT_WRITE) = 0
+15:35:55.257994 getdents64(24, /* 8 entries */, 32768) = 328
+15:35:55.258022 stat("/tmp/ompi.thetagpu06.36196/pid.1441785/1/shared_mem_cuda_btl_rndv.thetagpu06", {st_mode=S_IFREG|0600, st_size=4136, ...}) = 0
+15:35:55.258044 unlink("/tmp/ompi.thetagpu06.36196/pid.1441785/1/shared_mem_cuda_btl_rndv.thetagpu06") = 0
+15:35:55.258068 stat("/tmp/ompi.thetagpu06.36196/pid.1441785/1/shared_mem_cuda_btl_module.thetagpu06", {st_mode=S_IFREG|0600, st_size=204, ...}) = 0
+15:35:55.258099 unlink("/tmp/ompi.thetagpu06.36196/pid.1441785/1/shared_mem_cuda_btl_module.thetagpu06") = 0
+15:35:55.258125 stat("/tmp/ompi.thetagpu06.36196/pid.1441785/1/shared_mem_cuda_pool_rndv.thetagpu06", {st_mode=S_IFREG|0600, st_size=4144, ...}) = 0
+15:35:55.258147 unlink("/tmp/ompi.thetagpu06.36196/pid.1441785/1/shared_mem_cuda_pool_rndv.thetagpu06") = 0
+15:35:55.258198 stat("/tmp/ompi.thetagpu06.36196/pid.1441785/1/shared_mem_cuda_pool.thetagpu06", {st_mode=S_IFREG|0600, st_size=134217736, ...}) = 0
+15:35:55.258220 unlink("/tmp/ompi.thetagpu06.36196/pid.1441785/1/shared_mem_cuda_pool.thetagpu06") = 0
+15:35:55.258239 stat("/tmp/ompi.thetagpu06.36196/pid.1441785/1/0", {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+15:35:55.258260 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/1/0", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 25
+15:35:55.258280 fstat(25, {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+15:35:55.258299 mprotect(0x7fdf20028000, 32768, PROT_READ|PROT_WRITE) = 0
+15:35:55.258331 getdents64(25, /* 2 entries */, 32768) = 48
+15:35:55.258355 getdents64(25, /* 0 entries */, 32768) = 0
+15:35:55.258372 close(25)               = 0
+15:35:55.258390 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/1/0", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 25
+15:35:55.258410 fstat(25, {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+15:35:55.258429 getdents64(25, /* 2 entries */, 32768) = 48
+15:35:55.258449 getdents64(25, /* 0 entries */, 32768) = 0
+15:35:55.258469 close(25)               = 0
+15:35:55.258491 rmdir("/tmp/ompi.thetagpu06.36196/pid.1441785/1/0") = 0
+15:35:55.258514 stat("/tmp/ompi.thetagpu06.36196/pid.1441785/1/1", {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+15:35:55.258536 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/1/1", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 25
+15:35:55.258557 fstat(25, {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+15:35:55.258576 getdents64(25, /* 2 entries */, 32768) = 48
+15:35:55.258596 getdents64(25, /* 0 entries */, 32768) = 0
+15:35:55.258614 close(25)               = 0
+15:35:55.258632 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/1/1", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 25
+15:35:55.258653 fstat(25, {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+15:35:55.258672 getdents64(25, /* 2 entries */, 32768) = 48
+15:35:55.258691 getdents64(25, /* 0 entries */, 32768) = 0
+15:35:55.258709 close(25)               = 0
+15:35:55.258727 rmdir("/tmp/ompi.thetagpu06.36196/pid.1441785/1/1") = 0
+15:35:55.258749 getdents64(24, /* 0 entries */, 32768) = 0
+15:35:55.258767 close(24)               = 0
+15:35:55.258786 openat(AT_FDCWD, "/tmp/ompi.thetagpu06.36196/pid.1441785/1", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 24
+15:35:55.258807 fstat(24, {st_mode=S_IFDIR|0700, st_size=40, ...}) = 0
+15:35:55.258826 getdents64(24, /* 2 entries */, 32768) = 48
+15:35:55.258845 getdents64(24, /* 0 entries */, 32768) = 0
+15:35:55.258862 close(24)               = 0
+15:35:55.258880 rmdir("/tmp/ompi.thetagpu06.36196/pid.1441785/1") = 0
+15:35:55.278701 madvise(0x7fdf2520c000, 8368128, MADV_DONTNEED) = 0
+15:35:55.278732 exit(0)                 = ?
+15:35:55.278779 +++ exited with 0 +++

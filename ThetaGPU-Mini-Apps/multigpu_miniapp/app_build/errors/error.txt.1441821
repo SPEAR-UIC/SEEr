@@ -1,0 +1,10 @@
+15:34:07.346654 set_robust_list(0x7fe0e1a9b9e0, 24) = 0
+15:34:07.347207 futex(0x55b26129f5a8, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY) = 0
+15:34:07.347281 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe0c8000000
+15:34:07.347300 munmap(0x7fe0cc000000, 67108864) = 0
+15:34:07.347319 mprotect(0x7fe0c8000000, 135168, PROT_READ|PROT_WRITE) = 0
+15:34:07.347344 poll([{fd=21, events=POLLIN}], 1, -1) = 1 ([{fd=21, revents=POLLIN}])
+15:34:07.347449 read(21, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:07.347465 poll([{fd=21, events=POLLIN}, {fd=22, events=POLLIN}], 2, -1) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+15:35:54.219285 restart_syscall(<... resuming interrupted poll ...>) = ?
+15:35:55.220603 +++ killed by SIGTERM +++

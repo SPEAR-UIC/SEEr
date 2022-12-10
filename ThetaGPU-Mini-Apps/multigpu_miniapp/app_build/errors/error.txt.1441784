@@ -1,0 +1,307 @@
+15:34:05.312833 execve("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/bin/mpirun", ["mpirun", "-np", "2", "./app", "--device", "gpu"], 0x7fff7ce1b510 /* 84 vars */) = 0
+15:34:05.328052 brk(NULL)               = 0x55a57ad16000
+15:34:05.328071 arch_prctl(0x3001 /* ARCH_??? */, 0x7fff33413fa0) = -1 EINVAL (Invalid argument)
+15:34:05.328174 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6de0b3d000
+15:34:05.328196 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+15:34:05.328228 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/tls/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328264 stat("/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/tls/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328286 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328306 stat("/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328325 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328345 stat("/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328365 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328384 stat("/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/tls", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328405 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328425 stat("/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328444 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328464 stat("/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328484 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328503 stat("/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328523 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328692 stat("/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+15:34:05.328718 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/tls/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328740 stat("/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/tls/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328795 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328816 stat("/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328835 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328854 stat("/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328873 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328899 stat("/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/tls", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328918 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328937 stat("/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328956 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.328975 stat("/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.328994 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329013 stat("/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329032 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329172 stat("/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+15:34:05.329195 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/tls/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329218 stat("/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/tls/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329237 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329255 stat("/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329275 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329295 stat("/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329314 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329335 stat("/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/tls", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329374 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329396 stat("/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329415 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329434 stat("/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329453 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329472 stat("/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329490 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329610 stat("/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+15:34:05.329632 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/tls/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329654 stat("/usr/local/cuda-11.3/lib64/tls/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329672 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329689 stat("/usr/local/cuda-11.3/lib64/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329705 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329722 stat("/usr/local/cuda-11.3/lib64/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329739 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329756 stat("/usr/local/cuda-11.3/lib64/tls", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329773 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329790 stat("/usr/local/cuda-11.3/lib64/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329807 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329824 stat("/usr/local/cuda-11.3/lib64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329841 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329858 stat("/usr/local/cuda-11.3/lib64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329874 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329892 stat("/usr/local/cuda-11.3/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+15:34:05.329910 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/tls/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329930 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/tls/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.329948 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.329967 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330001 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330022 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330041 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330060 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/tls", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330078 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330097 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330115 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330134 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330152 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330171 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330189 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330208 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/ucx-1.9.0rc7/lib", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330227 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/tls/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330250 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/tls/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330269 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330287 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330306 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330325 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/tls/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330343 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330362 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/tls", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330381 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/x86_64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330401 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/x86_64/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330419 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330438 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330457 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330492 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/x86_64", 0x7fff334131f0) = -1 ENOENT (No such file or directory)
+15:34:05.330512 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330533 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+15:34:05.330556 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+15:34:05.330576 fstat(3, {st_mode=S_IFREG|0644, st_size=81854, ...}) = 0
+15:34:05.330593 mmap(NULL, 81854, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6de0b29000
+15:34:05.330610 close(3)                = 0
+15:34:05.330630 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+15:34:05.330647 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\346\0\0\0\0\0\0"..., 832) = 832
+15:34:05.330665 fstat(3, {st_mode=S_IFREG|0644, st_size=192032, ...}) = 0
+15:34:05.330684 mmap(NULL, 194944, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6de0af9000
+15:34:05.330701 mmap(0x7f6de0b07000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f6de0b07000
+15:34:05.330722 mmap(0x7f6de0b16000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7f6de0b16000
+15:34:05.330739 mmap(0x7f6de0b24000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000) = 0x7f6de0b24000
+15:34:05.330762 close(3)                = 0
+15:34:05.330781 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330805 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330825 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330845 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330864 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.330886 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+15:34:05.330904 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \22\0\0\0\0\0\0"..., 832) = 832
+15:34:05.330921 fstat(3, {st_mode=S_IFREG|0644, st_size=18848, ...}) = 0
+15:34:05.330937 mmap(NULL, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6de0af3000
+15:34:05.330956 mmap(0x7f6de0af4000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f6de0af4000
+15:34:05.330978 mmap(0x7f6de0af6000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f6de0af6000
+15:34:05.330996 mmap(0x7f6de0af7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f6de0af7000
+15:34:05.331019 close(3)                = 0
+15:34:05.331035 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/TensorRT-7.2.3.4.Ubuntu-18.04.x86_64-gnu.cuda-11.1.cudnn8.1/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.331057 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/nccl/nccl-v2.9.9-1_gcc-9.3.0-17ubuntu1-20.04/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.331077 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/cuda/cudnn-11.3-linux-x64-v8.2.0.53/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.331097 openat(AT_FDCWD, "/usr/local/cuda-11.3/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.331115 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+15:34:05.331153 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+15:34:05.331173 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300A\2\0\0\0\0\0"..., 832) = 832
+15:34:05.331190 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+15:34:05.331207 pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+15:34:05.331223 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\30x\346\264ur\f|Q\226\236i\253-'o"..., 68, 880) = 68
+15:34:05.331238 fstat(3, {st_mode=S_IFREG|0755, st_size=2029592, ...}) = 0
+15:34:05.331256 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+15:34:05.331273 pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+15:34:05.331288 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\30x\346\264ur\f|Q\226\236i\253-'o"..., 68, 880) = 68
+15:34:05.331304 mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6de0901000
+15:34:05.331322 mmap(0x7f6de0923000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7f6de0923000
+15:34:05.331342 mmap(0x7f6de0a9b000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000) = 0x7f6de0a9b000
+15:34:05.331359 mmap(0x7f6de0ae9000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f6de0ae9000
+15:34:05.331379 mmap(0x7f6de0aef000, 13920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6de0aef000
+15:34:05.331399 close(3)                = 0
+15:34:05.331427 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6de08ff000
+15:34:05.331445 arch_prctl(ARCH_SET_FS, 0x7f6de08ffb80) = 0
+15:34:05.331491 mprotect(0x7f6de0ae9000, 16384, PROT_READ) = 0
+15:34:05.331509 mprotect(0x7f6de0af7000, 4096, PROT_READ) = 0
+15:34:05.331552 mprotect(0x7f6de0b24000, 16384, PROT_READ) = 0
+15:34:05.331619 mprotect(0x55a579b7b000, 16384, PROT_READ) = 0
+15:34:05.331637 mprotect(0x7f6de0b6c000, 4096, PROT_READ) = 0
+15:34:05.331653 munmap(0x7f6de0b29000, 81854) = 0
+15:34:05.331699 openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+15:34:05.331727 close(3)                = 0
+15:34:05.331784 brk(NULL)               = 0x55a57ad16000
+15:34:05.331800 brk(0x55a57ad37000)     = 0x55a57ad37000
+15:34:05.331817 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+15:34:05.331839 fstat(3, {st_mode=S_IFREG|0644, st_size=5703344, ...}) = 0
+15:34:05.331855 mmap(NULL, 5703344, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6de038e000
+15:34:05.331878 close(3)                = 0
+15:34:05.331931 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+15:34:05.331953 fstat(3, {st_mode=S_IFREG|0644, st_size=27002, ...}) = 0
+15:34:05.331970 mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7f6de0b36000
+15:34:05.331985 close(3)                = 0
+15:34:05.332006 getuid()                = 36196
+15:34:05.332020 getgid()                = 100
+15:34:05.332034 geteuid()               = 36196
+15:34:05.332049 getegid()               = 100
+15:34:05.332069 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332095 ioctl(-1, TIOCGPGRP, 0x7fff33413df4) = -1 EBADF (Bad file descriptor)
+15:34:05.332114 sysinfo({uptime=2512179, loads=[87232, 66688, 65632], totalram=1082006798336, freeram=1055058767872, sharedram=62533632, bufferram=1703682048, totalswap=0, freeswap=0, procs=3710, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+15:34:05.332142 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+15:34:05.332161 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.332178 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+15:34:05.332212 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.332231 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+15:34:05.332248 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.332264 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+15:34:05.332281 rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.332298 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+15:34:05.332315 rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.332332 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+15:34:05.332349 rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.332365 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332381 rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.332398 uname({sysname="Linux", nodename="thetagpu06", ...}) = 0
+15:34:05.332459 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332495 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332523 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332593 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332641 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332674 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332709 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.332752 stat("/lus/grand/projects/SEEr-planning/Miniapps/miniappA/app_build", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+15:34:05.332907 stat(".", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+15:34:05.332933 stat("/lus", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+15:34:05.332953 stat("/lus/grand", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+15:34:05.332972 stat("/lus/grand/projects", {st_mode=S_IFDIR|0775, st_size=16384, ...}) = 0
+15:34:05.332995 stat("/lus/grand/projects/SEEr-planning", {st_mode=S_IFDIR|S_ISGID|0770, st_size=4096, ...}) = 0
+15:34:05.333017 stat("/lus/grand/projects/SEEr-planning/Miniapps", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+15:34:05.333039 stat("/lus/grand/projects/SEEr-planning/Miniapps/miniappA", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+15:34:05.333059 stat("/lus/grand/projects/SEEr-planning/Miniapps/miniappA/app_build", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+15:34:05.333080 stat("/home/hnegron", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+15:34:05.333122 getpid()                = 1441784
+15:34:05.333139 getppid()               = 1441781
+15:34:05.333164 getpid()                = 1441784
+15:34:05.333186 getpgrp()               = 1441781
+15:34:05.333201 ioctl(2, TIOCGPGRP, [1441781]) = 0
+15:34:05.333217 rt_sigaction(SIGCHLD, {sa_handler=0x55a579ac1a70, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.333252 prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=4126976, rlim_max=4126976}) = 0
+15:34:05.333353 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.333381 openat(AT_FDCWD, "/opt/lmod/stable/lmod/lmod/init/bash", O_RDONLY) = 3
+15:34:05.333405 fstat(3, {st_mode=S_IFREG|0755, st_size=5550, ...}) = 0
+15:34:05.333425 read(3, "#!/bin/bash\n# -*- shell-script -"..., 5550) = 5550
+15:34:05.333444 close(3)                = 0
+15:34:05.333461 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+15:34:05.333838 openat(AT_FDCWD, "/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+15:34:05.333859 fcntl(2, F_GETFD)       = 0
+15:34:05.333874 fcntl(2, F_DUPFD, 10)   = 10
+15:34:05.333889 fcntl(2, F_GETFD)       = 0
+15:34:05.333904 fcntl(10, F_SETFD, FD_CLOEXEC) = 0
+15:34:05.333920 dup2(3, 2)              = 2
+15:34:05.333934 close(3)                = 0
+15:34:05.333951 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+15:34:05.333969 fstat(3, {st_mode=S_IFREG|0644, st_size=2996, ...}) = 0
+15:34:05.333989 brk(0x55a57ad58000)     = 0x55a57ad58000
+15:34:05.334007 read(3, "# Locale name alias data base.\n#"..., 4096) = 2996
+15:34:05.334033 read(3, "", 4096)       = 0
+15:34:05.334048 close(3)                = 0
+15:34:05.334084 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334102 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334119 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334137 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334154 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334171 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334188 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334205 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334222 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334239 openat(AT_FDCWD, "/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334256 openat(AT_FDCWD, "/usr/share/locale-langpack/en.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334273 openat(AT_FDCWD, "/usr/share/locale-langpack/en/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+15:34:05.334292 fstat(2, {st_mode=S_IFCHR|0666, st_rdev=makedev(0x1, 0x3), ...}) = 0
+15:34:05.334312 ioctl(2, TCGETS, 0x7fff33412e40) = -1 ENOTTY (Inappropriate ioctl for device)
+15:34:05.334332 write(2, "/opt/lmod/stable/lmod/lmod/init/"..., 71) = 71
+15:34:05.334348 dup2(10, 2)             = 2
+15:34:05.334363 fcntl(10, F_GETFD)      = 0x1 (flags FD_CLOEXEC)
+15:34:05.334379 close(10)               = 0
+15:34:05.334496 faccessat(AT_FDCWD, "/opt/lmod/stable/lmod/lmod/init/lmod_bash_completions", R_OK) = 0
+15:34:05.334552 openat(AT_FDCWD, "/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/bin/mpirun", O_RDONLY) = 3
+15:34:05.334708 stat("/lus/theta-fs0/software/thetagpu/openmpi-4.0.5/bin/mpirun", {st_mode=S_IFREG|0775, st_size=526, ...}) = 0
+15:34:05.334740 ioctl(3, TCGETS, 0x7fff33413d80) = -1 ENOTTY (Inappropriate ioctl for device)
+15:34:05.334756 lseek(3, 0, SEEK_CUR)   = 0
+15:34:05.334772 read(3, "#!/bin/bash\nexport PATH=/lus/the"..., 80) = 80
+15:34:05.334789 lseek(3, 0, SEEK_SET)   = 0
+15:34:05.334803 prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=500000, rlim_max=500000}) = 0
+15:34:05.334819 fcntl(255, F_GETFD)     = -1 EBADF (Bad file descriptor)
+15:34:05.334835 dup2(3, 255)            = 255
+15:34:05.334880 close(3)                = 0
+15:34:05.334895 fcntl(255, F_SETFD, FD_CLOEXEC) = 0
+15:34:05.334910 fcntl(255, F_GETFL)     = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+15:34:05.334925 fstat(255, {st_mode=S_IFREG|0775, st_size=526, ...}) = 0
+15:34:05.334951 lseek(255, 0, SEEK_CUR) = 0
+15:34:05.334967 read(255, "#!/bin/bash\nexport PATH=/lus/the"..., 526) = 526
+15:34:05.335094 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+15:34:05.335112 lseek(255, -1, SEEK_CUR) = 525
+15:34:05.335126 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f6de08ffe50) = 1441785
+15:34:05.335677 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15:34:05.336299 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15:34:05.336340 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15:34:05.336368 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15:34:05.336387 rt_sigaction(SIGINT, {sa_handler=0x55a579abe450, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, 8) = 0
+15:34:05.336412 wait4(-1, 0x7fff33413b10, 0, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+15:35:54.218520 --- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+15:35:54.218551 rt_sigreturn({mask=[CHLD]}) = -1 EINTR (Interrupted system call)
+15:35:54.218592 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 1}], 0, NULL) = 1441785
+15:35:55.288143 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, {sa_handler=0x55a579abe450, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6de0944090}, 8) = 0
+15:35:55.288166 ioctl(2, TIOCGWINSZ, {ws_row=60, ws_col=211, ws_xpixel=0, ws_ypixel=0}) = 0
+15:35:55.288217 ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+15:35:55.288253 stat("/home/hnegron/.terminfo", 0x55a57ad3e2b0) = -1 ENOENT (No such file or directory)
+15:35:55.288301 stat("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+15:35:55.288324 stat("/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+15:35:55.288344 stat("/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+15:35:55.288375 access("/etc/terminfo/x/xterm", R_OK) = -1 ENOENT (No such file or directory)
+15:35:55.288398 access("/lib/terminfo/x/xterm", R_OK) = 0
+15:35:55.288426 openat(AT_FDCWD, "/lib/terminfo/x/xterm", O_RDONLY) = 3
+15:35:55.288448 fstat(3, {st_mode=S_IFREG|0644, st_size=3403, ...}) = 0
+15:35:55.288466 read(3, "\32\1)\0&\0\17\0\235\1\244\5xterm|xterm-debian|X"..., 32768) = 3403
+15:35:55.288487 read(3, "", 28672)      = 0
+15:35:55.288523 close(3)                = 0
+15:35:55.288543 ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+15:35:55.288561 ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+15:35:55.288577 ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+15:35:55.288593 ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+15:35:55.288608 ioctl(1, TIOCGWINSZ, {ws_row=60, ws_col=211, ws_xpixel=0, ws_ypixel=0}) = 0
+15:35:55.288642 ioctl(0, TIOCGWINSZ, {ws_row=60, ws_col=211, ws_xpixel=0, ws_ypixel=0}) = 0
+15:35:55.288692 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15:35:55.288710 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1441785, si_uid=36196, si_status=1, si_utime=2, si_stime=17} ---
+15:35:55.288723 wait4(-1, 0x7fff33413490, WNOHANG, NULL) = -1 ECHILD (No child processes)
+15:35:55.288739 rt_sigreturn({mask=[]}) = 0
+15:35:55.288767 read(255, "\n", 526)    = 1
+15:35:55.288823 read(255, "", 526)      = 0
+15:35:55.288846 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15:35:55.288862 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15:35:55.288910 exit_group(1)           = ?
+15:35:55.289272 +++ exited with 1 +++

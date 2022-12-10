@@ -1,0 +1,12 @@
+15:34:06.556669 set_robust_list(0x7fe10192c9e0, 24) = 0
+15:34:06.557227 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe0f912c000
+15:34:06.557250 munmap(0x7fe0f912c000, 49102848) = 0
+15:34:06.557267 munmap(0x7fe100000000, 18006016) = 0
+15:34:06.557283 mprotect(0x7fe0fc000000, 135168, PROT_READ|PROT_WRITE) = 0
+15:34:06.557309 poll([{fd=9, events=POLLIN}], 1, 3600000) = 1 ([{fd=9, revents=POLLIN}])
+15:34:06.612720 futex(0x55b2611b4670, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+15:34:06.612742 futex(0x55b2611b4670, FUTEX_WAKE_PRIVATE, 1) = 0
+15:34:06.612774 read(9, "\1\0\0\0\0\0\0\0", 8) = 8
+15:34:06.612794 poll([{fd=9, events=POLLIN}], 1, 3599944) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+15:35:54.219255 restart_syscall(<... resuming interrupted poll ...>) = ?
+15:35:55.306138 +++ killed by SIGTERM +++

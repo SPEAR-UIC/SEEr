@@ -1,0 +1,7 @@
+15:34:06.463471 set_robust_list(0x7fdf1f9e59e0, 24) = 0
+15:34:06.464018 select(19, [17 18], NULL, NULL, {tv_sec=3600, tv_usec=0}) = 1 (in [18], left {tv_sec=3491, tv_usec=179585})
+15:35:55.284498 close(18)               = 0
+15:35:55.284519 close(19)               = 0
+15:35:55.284540 madvise(0x7fdf1f1e5000, 8368128, MADV_DONTNEED) = 0
+15:35:55.284559 exit(0)                 = ?
+15:35:55.284585 +++ exited with 0 +++

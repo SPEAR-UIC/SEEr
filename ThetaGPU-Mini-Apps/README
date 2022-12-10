@@ -1,0 +1,7 @@
+Each of these is a copy of /lus/grand/projects/SEEr-planning/sdl_ai_workshop/05_Simulation_ML/ML_PythonC++_Embedding/ThetaGPU
+A: nx=256,   dt=0.001
+B: nx=512,   dt=0.001
+C: nx=1280,  dt=0.001
+D: nx=2560,  dt=0.0001 (size S)
+E: nx=3840,  dt=0.0001 (size M)
+F: nx=5120,  dt=0.00001 (size L)
