@@ -1,0 +1,1 @@
+/opt/cray/pe/craype/2.7.15/bin/CC -g CMakeFiles/app.dir/app.cpp.o -o app  -Wl,-rpath,/soft/datascience/conda/2022-09-08/mconda3/lib /soft/datascience/conda/2022-09-08/mconda3/lib/libpython3.8.so 
